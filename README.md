@@ -18,7 +18,7 @@ A full-stack web application to manage seat reservations in a single-coach train
 - **Backend:** Node.js + Express.js
 - **Database:** Supabase (PostgreSQL)
 - **Authentication:** Supabase Auth (JWT)
-- **Deployment:** Vercel / Render / Railway / Supabase
+- **Deployment:** Netlify
 
 ## 🔐 Features
 
@@ -31,8 +31,7 @@ A full-stack web application to manage seat reservations in a single-coach train
 - Secure JWT-based authentication
 - Clean error handling & messages
 
-🌐 [Live Deployment Link](#) *(insert Vercel link)*  
-🗃️ [Backend API Hosted On](#) *(insert Render/Railway link)*
+🌐 [Live Deployment Link](#) https://trainreservation.netlify.app/  
 
 ---
 
