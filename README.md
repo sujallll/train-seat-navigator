@@ -1,73 +1,45 @@
-# Welcome to your Lovable project
+# 🚆 Train Seat Navigator
 
-## Project info
+A full-stack web application to manage seat reservations in a single-coach train with 80 seats. Built using **Next.js**, **Node.js**, **Express.js**, and **Supabase (PostgreSQL)**.
 
-**URL**: https://lovable.dev/projects/96ecab18-cc01-4851-a482-d5b9c7cd7986
+## 📚 Project Description
 
-## How can I edit this code?
+- 80 seats in total (11 rows: 10 with 7 seats, last with 3).
+- Users can book up to 7 seats at a time.
+- Priority is given to booking in the same row.
+- If not possible, the nearest available seats are reserved.
+- No double booking allowed.
+- Users must log in to book or cancel seats.
+- Admin can reset or cancel bookings.
 
-There are several ways of editing your application.
+## 🛠 Tech Stack
 
-**Use Lovable**
+- **Frontend:** Next.js (React)
+- **Backend:** Node.js + Express.js
+- **Database:** Supabase (PostgreSQL)
+- **Authentication:** Supabase Auth (JWT)
+- **Deployment:** Vercel / Render / Railway / Supabase
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/96ecab18-cc01-4851-a482-d5b9c7cd7986) and start prompting.
+## 🔐 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- User Signup and Login
+- Reserve up to 7 seats at once
+- Auto-book logic (same row → nearby)
+- Cancel or reset seat bookings
+- Fully responsive UI
+- Input validation & sanitization
+- Secure JWT-based authentication
+- Clean error handling & messages
 
-**Use your preferred IDE**
+🌐 [Live Deployment Link](#) *(insert Vercel link)*  
+🗃️ [Backend API Hosted On](#) *(insert Render/Railway link)*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Getting Started
 
-Follow these steps:
+### 1. Clone the Repository
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/96ecab18-cc01-4851-a482-d5b9c7cd7986) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+git clone https://github.com/sujallll/train-seat-navigator.git
+cd train-seat-navigator
